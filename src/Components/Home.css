@@ -1,0 +1,45 @@
+#home-div{
+    height: 500px;
+    width: 100%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.543),rgba(0, 0, 0, 0.444)),url("https://q-tripstatic.vercel.app/assets/hero.jpg");
+    /* background-image: url(pexels-josh-hild-2422461\ \(1\).jpg); */
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
+#text-div{
+    color: #fff;
+    padding: 170px 540px;
+    
+}
+#text-div h1{
+    margin-bottom: 13px;
+    margin-left: 246px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    
+}
+#text-div p{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 100;
+    position: absolute;
+    left: 655px;
+ 
+}
+#text-div input{
+    width: 1000px;
+    padding: 16px;
+    border-radius: 8px;
+    position: absolute;
+    left: 445px;
+    border: 1px solid gray;
+    top: 340px;
+}
+
+
+    
+
+input[placeholder="Search a City"]{
+    font-size: 1.0rem;
+}

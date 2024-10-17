@@ -1,0 +1,64 @@
+#container{
+    margin-top: 110px;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    height: 458.64px;
+    width: 306px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 30px;
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: center; */
+   
+
+}
+.card .img-1{
+    width: 159%;
+    height: 100%;
+    border-radius: 10px;
+    
+   
+}
+.img-1{
+    transition-duration: 0.5s;
+    z-index: -1;
+    /* overflow: hidden; */
+
+}
+.card .img-1:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+    
+}
+
+.benglore{
+    height: 70px;
+    width: 180px;
+    
+    color: white;
+    
+
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.benglore h4{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+}
+.benglore h6{
+   
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
