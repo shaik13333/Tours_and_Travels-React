@@ -8,16 +8,17 @@ body{
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #nav-left{
-    height: 50px;
+    height: 74px;
     width: 100%;
-    background-color: #f8f9fa;
+    padding-top: 7px;
+    background-color: #dbeded;
     display: flex;
     padding-bottom: 60px;
 }
 #nav-left span{
-    margin-left: 15px;
+    margin-left: 41px;
     margin-top: 3px;
-    margin-right: 477px;
+    margin-right: 415px;
     font-size: 2.12rem;
     font-weight: 757;
 }
@@ -32,7 +33,7 @@ body{
     padding: 10px;
     font-size: 1.2rem;
     border-radius: 34px;
-    color: #ff3d00;
+    color: black;
     font-size: 20px;
 }
  button{
@@ -51,7 +52,7 @@ button::after{
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: #c46a6a;
+    background-color: gray;
     top: 41px;
     right: 0px;
     /* overflow: hidden; */
